@@ -1,0 +1,29 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'LunchTimeRN' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+  pod 'Firebase/Auth'
+  pod 'Firebase/Firestore'
+  # Pods for LunchTimeRN
+
+  target 'LunchTimeRN-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'LunchTimeRNTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+
+target 'LunchTimeRN-tvOS' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for LunchTimeRN-tvOS
+
+end
